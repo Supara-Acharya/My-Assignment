@@ -9,35 +9,40 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="col-xs-12">
-  <nav class="navbar navbar-default navbar-static-top">
-	<div class="container-fluid">
-	  <div class="navbar-header">
-		<a class="navbar-brand" href="#">Promact</a>
-	  </div>
-	 <div class="collapse navbar-collapse" id="myNavbar">
-	  <ul class="nav navbar-nav navbar-right">
-		<li class="active" ><a href="#">Home</a></li>
-		<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Products<span class="caret"></span></a>
-			<ul class="dropdown-menu">
-				<li><a href="#">Product 1</a></li>
-				<li><a href="#">Product 2</a></li>
-				<li><a href="#">Product 3</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Services</a></li>
-		<li><a href="#">About</a></li>
-		<li><a href="#contact" data-toggle="tooltip" data-placement="bottom" title="Contact us below">Contact</a></li>
-		
-	   </ul>
+  <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+    <div class="container">
+		<div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+			<a class="navbar-brand" href="#">Promact</a>
+		</div>
+		 <div class="collapse navbar-collapse" id="myNavbar">
+		  <ul class="nav navbar-nav navbar-right">
+			<li class="active" ><a href="#">Home</a></li>
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Products<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Product 1</a></li>
+					<li><a href="#">Product 2</a></li>
+					<li><a href="#">Product 3</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#contact" data-toggle="tooltip" data-placement="bottom" title="Contact us below">Contact</a></li>		
+		   </ul>
+		</div>
 	</div>
   </nav>
-</div>
+  <div class="container">
 	<div class="row">
-  		<div class="col-md-2 " ></div>
+  		<div class="col-md-2 "></div>
   		<div class="col-xs-12 col-md-8">
 			<center>
-				<b><h1>Services<br/></h1></b>
+				<br/><br/><b><h1>Services<br/></h1></b>
 				<b><p>Lorum Ipsum services dummy content Lorum Ipsum services dummy content.Lorum Ipsum</br>
 					Services dummy content.Lorum Ipsum services dummy content Lorum Ipsum services<br/>
 					dummy content.</p></b>
@@ -45,80 +50,80 @@
    		</div>
 	</div>
 	<p>&nbsp</p><p>&nbsp</p>
-	<div class="container-fluid">
-	    <div class="row" style="margin: 0 auto; width: 800px">
- 		<div class="col-md-4 col-xs-12" style="text-align: center">
-   			<p><span class="glyphicon glyphicon-phone" style="font-size: 180px"></span></p>
-   				<h4>Mobile First</h4>
-   				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
- 		 </div>
-  		<div class="col-md-4 col-xm-12" style="text-align: center">
-  			 <p><span class="glyphicon glyphicon-resize-full" style="font-size: 180px"></span></p>
-   			<h4>Responsive for all devices</h4>
-   			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  		</div>
-  		<div class="col-md-4 col-xm-12" style="text-align: center">
-   			<p><span class="glyphicon glyphicon-gift" style="font-size: 180px"></span></p>
-   			<h4>Open source</h4>
-   			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  		</div>
-	      </div>
-	   </div>
-
-	 <hr style="width: 100%"/> 
-	<div style="margin: 30px auto; width:600px">
-  		<h1 style="text-align: center">Get In Touch</h1>
-  		<p style="text-align: center">Lorum Ipsum services dummy content.Lorum Ipsum services dummy content.Lorum Ipsum services dummy content.Lorum Ipsum services dummy content.Lorum Ipsum services dummy content.Lorum Ipsum services dummy content.</p>
- 	</div>
-
-
-
-	<div class="row">
-		<div class="col-md-2 " ></div>
-			<div id="contact" class="col-xs-12 col-md-8">
-  			<ul class="nav nav-tabs">
-    				<li class="active">
-					<a href="#form1">Contact</a>
-					<form id="form1" width="100%">
-    						<div class="form-group">
-      						 	<label for="email">Name:</label>
-     						 	<input class="form-control input-lg" id="inputlg" type="text">
-    						</div>
-    						<div class="form-group">
-      							<label for="pwd">Message:</label><br/>
-     						 	<textarea rows="4" ></textarea>
-    						</div>
-		
-  	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
-  	<div class="modal fade" id="myModal" role="dialog">
-    		<div class="modal-dialog">
-      		<div class="modal-content">
-        	<div class="modal-header">
-          			<button type="button" class="close" data-dismiss="modal">&times;</button>
-        	</div>
-        	<div class="modal-body">
-          		<p>Thank you</p>
-        	</div>
-        	<div class="modal-footer">
-          		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        	</div>
-      	</div>
-      
-  </div>
-  	</form>
-				</li>
-    				<li>
-					<a href="#pd">Map</a>
-					<div class=" pannel panel-fade">
-					<img src="pic.jpg" class="img-responsive" alt="pic" width="100" height"200">
+	<div class="container">
+	    <div class="row" >
+			<div class="col-xs-12 col-md-4 " style="text-align: center">
+					<p><span class="glyphicon glyphicon-phone" style="font-size: 180px"></span></p>
+					<h4>Mobile First</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			 </div>
+			<div class="col-xm-12 col-md-4 " style="text-align: center">
+				 <p><span class="glyphicon glyphicon-resize-full" style="font-size: 180px"></span></p>
+				<h4>Responsive for all devices</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div class="col-xm-12 col-md-4 " style="text-align: center">
+				<p><span class="glyphicon glyphicon-gift" style="font-size: 180px"></span></p>
+				<h4>Open source</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+	    </div>
+			<div class="col-md-2"></div>
+			<div class="col-xs-12 col-md-8"style="text-align: center">
+				<center>
+				<h1>Get In Touch</h1>
+				<p>Lorum Ipsum services dummy content.Lorum Ipsum services dummy content.Lorum Ipsum services dummy content.Lorum Ipsum services dummy content.Lorum Ipsum services dummy content.Lorum Ipsum services dummy content.</p>
+				</center>
+			</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-xs-12 col-md-8" style="text-align: center width="100%">
+				<div class="well">
+					<ul class="nav nav-tabs">
+								<li class="active"><a href="#contact" data-toggle="tab">Contact</a></li>
+								<li><a href="#profile" data-toggle="tab">Map</a></li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+							 <div class="tab-pane active in" id="contact">
+								<form action="javascript:alert('Thank You')">  
+								   <a data-toggle="tooltip" title="Enter Your name">
+								   <div align = "left">
+										<label for="name">Name</label><br></a>  
+										<input type="text" name="name" class="form-control"><br>
+									</div>  
+								   <a data-toggle="tooltip" title="Enter Your Message">
+								   <div align = "left">
+										<label for="message">Message</label><br></a>
+										<textarea  rows="4" class="form-control"></textarea><br>
+									</div> <br/>
+								 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
+								<div class="modal fade" id="myModal" role="dialog">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+											</div>
+											<div class="modal-body">
+												<p>Thank you!</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div> 
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="profile">
+									<form id="tab2">
+									  <img src="C:\Users\suparna\Desktop\pic.jpg" class="img-rounded" width="100%" height="236">
+									</form>
+							</div>
 					</div>
-					
-				</li>
-  			</ul>	
+			</div>
 		</div>
 	</div>
- </body>
-
-</html>
-
+		</div>
+	</div>
+	</div>
