@@ -1,0 +1,6 @@
+c:\users\suparna\documents\visual studio 2015\Projects\inherited_function\inherited_function\bin\Debug\inherited_function.exe.config
+c:\users\suparna\documents\visual studio 2015\Projects\inherited_function\inherited_function\bin\Debug\inherited_function.exe
+c:\users\suparna\documents\visual studio 2015\Projects\inherited_function\inherited_function\bin\Debug\inherited_function.pdb
+c:\users\suparna\documents\visual studio 2015\Projects\inherited_function\inherited_function\obj\Debug\inherited_function.csprojResolveAssemblyReference.cache
+c:\users\suparna\documents\visual studio 2015\Projects\inherited_function\inherited_function\obj\Debug\inherited_function.exe
+c:\users\suparna\documents\visual studio 2015\Projects\inherited_function\inherited_function\obj\Debug\inherited_function.pdb
