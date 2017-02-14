@@ -1,0 +1,6 @@
+c:\users\suparna\documents\visual studio 2015\Projects\pangram\pangram\bin\Debug\pangram.exe.config
+c:\users\suparna\documents\visual studio 2015\Projects\pangram\pangram\obj\Debug\pangram.csprojResolveAssemblyReference.cache
+c:\users\suparna\documents\visual studio 2015\Projects\pangram\pangram\bin\Debug\pangram.exe
+c:\users\suparna\documents\visual studio 2015\Projects\pangram\pangram\bin\Debug\pangram.pdb
+c:\users\suparna\documents\visual studio 2015\Projects\pangram\pangram\obj\Debug\pangram.exe
+c:\users\suparna\documents\visual studio 2015\Projects\pangram\pangram\obj\Debug\pangram.pdb
