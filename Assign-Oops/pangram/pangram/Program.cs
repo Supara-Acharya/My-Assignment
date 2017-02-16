@@ -16,7 +16,7 @@ namespace pangram
             input = input.ToUpper();
             if (input.Length < 26)
             {
-                Console.WriteLine("Not a pangram");
+                Console.WriteLine("Your input is not a pangram ");
             }
             else
             {
@@ -31,16 +31,18 @@ namespace pangram
                         }
                     }
                 }
+
+                if (flag == 26)
+                {
+                    Console.WriteLine("Your input is a pangram");
+                }
+                else
+                {
+                    Console.WriteLine("your input is not a Pangram");
+                }
+
             }
-            if (flag == 26)
-            {
-                Console.WriteLine("it is a pangram");
-            }
-            else
-            {
-                Console.WriteLine("not a Pangram");
-            }
-        
+
             Console.ReadLine();
         }
        

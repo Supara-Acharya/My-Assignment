@@ -7,3 +7,6 @@ c:\users\suparna\documents\visual studio 2015\Projects\inherited_function\inheri
 C:\Users\suparna\Desktop\Suparna\Assign-Oops\inherited_function\inherited_function\bin\Debug\inherited_function.exe.config
 C:\Users\suparna\Desktop\Suparna\Assign-Oops\inherited_function\inherited_function\obj\Debug\inherited_function.exe
 C:\Users\suparna\Desktop\Suparna\Assign-Oops\inherited_function\inherited_function\obj\Debug\inherited_function.pdb
+C:\Users\suparna\Desktop\Suparna\Assign-Oops\inherited_function\inherited_function\bin\Debug\inherited_function.exe
+C:\Users\suparna\Desktop\Suparna\Assign-Oops\inherited_function\inherited_function\bin\Debug\inherited_function.pdb
+C:\Users\suparna\Desktop\Suparna\Assign-Oops\inherited_function\inherited_function\obj\Debug\inherited_function.csprojResolveAssemblyReference.cache

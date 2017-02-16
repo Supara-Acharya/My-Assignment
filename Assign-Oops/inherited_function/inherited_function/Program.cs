@@ -9,35 +9,35 @@ namespace inherited_function
     class parent1
     {
         public int Count1 = 0;
-        public void mult(ref int a)
+        public void mult1(ref int a)
         {
             a =a* 2;
             Count1++;
-            Console.WriteLine("Class parent1 is called once",Count1);
-            Console.ReadLine();
+            Console.WriteLine("Class parent1 is called " + Count1 + " times");
+            
         }
     }
     class parent2:parent1
     {
         public int Count2 = 0;
-        public void mult(ref int a)
+        public void mult2(ref int a)
         {
             a =a* 3;
             Count2++;
-            Console.WriteLine("Class parent2 is called one", Count2);
-            Console.ReadLine();
+            Console.WriteLine("Class parent2 is called "+ Count2+" times");
+            
 
         }
     }
     class parent3:parent2
     {
         public int Count3 = 0;
-        public void mult(ref int a)
+        public void mult3(ref int a)
         {
             a=a* 5;
             Count3++;
-            Console.WriteLine("Class parent3 is called once", Count3);
-            Console.ReadLine();
+            Console.WriteLine("Class parent3 is called "+ Count3+" times");
+         
         }
        
     }
@@ -48,13 +48,12 @@ namespace inherited_function
             int val = newvalue;
             if (val % 2 == 0 && val%3==0 && val%5==0)
             {
-                parent1 p1 = new parent1();
-                p1.mult(ref val);
-                parent1 p2 = new parent2();
-                p2.mult(ref val);
-                parent1 p3 = new parent3();
-                p3.mult(ref val);
-
+              
+                parent3 p3 = new parent3();
+                p3.mult1(ref val);
+                p3.mult2(ref val);
+                p3.mult3(ref val);
+                Console.ReadLine();
             }
             else
             {
