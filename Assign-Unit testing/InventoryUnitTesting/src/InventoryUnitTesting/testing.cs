@@ -104,7 +104,7 @@ namespace InventoryUnitTesting
             var inventoryupdate = new Inventory()
             {
                 ProductId = 2,
-                Quantity =Quantity-cart.OrderedQuantity,
+                Quantity =40
             };
             var list2 = prgm.UpdateInventory(inventoryupdate);
             Assert.Equal(1, db.InventoryList.Count);
