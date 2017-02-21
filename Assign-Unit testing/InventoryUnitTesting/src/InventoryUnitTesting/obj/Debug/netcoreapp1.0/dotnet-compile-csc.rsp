@@ -117,6 +117,7 @@
 -r:"C:\Users\suparna\.nuget\packages\xunit.extensibility.execution\2.2.0-beta2-build3300\lib\netstandard1.0\xunit.execution.dotnet.dll"
 -r:"C:\Users\suparna\.nuget\packages\xunit.runner.reporters\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.reporters.dotnet.dll"
 -r:"C:\Users\suparna\.nuget\packages\xunit.runner.utility\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.utility.dotnet.dll"
+"C:\Users\suparna\Desktop\Suparna\Assign-Unit testing\InventoryUnitTesting\src\InventoryUnitTesting\AddInventory.cs"
 "C:\Users\suparna\Desktop\Suparna\Assign-Unit testing\InventoryUnitTesting\src\InventoryUnitTesting\Cart.cs"
 "C:\Users\suparna\Desktop\Suparna\Assign-Unit testing\InventoryUnitTesting\src\InventoryUnitTesting\Database.cs"
 "C:\Users\suparna\Desktop\Suparna\Assign-Unit testing\InventoryUnitTesting\src\InventoryUnitTesting\Inventory.cs"

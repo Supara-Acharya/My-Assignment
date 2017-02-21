@@ -80,7 +80,7 @@ namespace InventoryUnitTesting
                 ProductId = 5,
             };
             var prgm = new Program();
-            var ans = "Yes";
+            var ans = "1";
             var list = prgm.CheckProductIsExistInInventoryOrNot();
             Assert.Same(ans,db.InventoryList.Contains(inventory));
         }
@@ -103,11 +103,13 @@ namespace InventoryUnitTesting
 
             var inventoryupdate = new Inventory()
             {
+                Id=2,
                 ProductId = 2,
-                Quantity =40
+                Quantity =10
             };
             var list2 = prgm.UpdateInventory(inventoryupdate);
-            Assert.Equal(1, db.InventoryList.Count);
+            var ans = "1";
+            Assert.Same(ans, db.InventoryList.Contains(inventoryupdate));
         }
     }
 }

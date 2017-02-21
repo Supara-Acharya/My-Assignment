@@ -61,7 +61,12 @@ namespace InventoryUnitTesting
         {
             throw new NotImplementedException();
         }
-        #endregion     
+
+        internal object CheckOutTheCartandUpdateInventory()
+        {
+            throw new NotImplementedException();
+        }
+        #endregion
     }
 }
 
