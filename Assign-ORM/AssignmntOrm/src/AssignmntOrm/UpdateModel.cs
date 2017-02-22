@@ -20,6 +20,6 @@ namespace AssignmntOrm
         public string Description { get; set; }
 
         public int ProductId { get; set; }
-        public ProductModels ProductModel { get; set; }
+        public ProductModels ProductModels { get; set; }
     }
 }

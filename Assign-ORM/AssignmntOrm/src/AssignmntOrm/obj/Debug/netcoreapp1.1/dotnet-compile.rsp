@@ -1,5 +1,5 @@
---temp-output:C:\Users\suparna\Documents\Visual Studio 2015\Projects\AssignmntOrm\src\AssignmntOrm\obj\Debug\netcoreapp1.1\
---out:C:\Users\suparna\Documents\Visual Studio 2015\Projects\AssignmntOrm\src\AssignmntOrm\bin\Debug\netcoreapp1.1\AssignmntOrm.dll
+--temp-output:C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\obj\Debug\netcoreapp1.1\
+--out:C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\bin\Debug\netcoreapp1.1\AssignmntOrm.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_1
@@ -114,19 +114,21 @@
 --reference:C:\Users\suparna\.nuget\packages\System.Threading.Timer\4.3.0\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\suparna\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\suparna\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll
-C:\Users\suparna\Documents\Visual Studio 2015\Projects\AssignmntOrm\src\AssignmntOrm\Database.cs
-C:\Users\suparna\Documents\Visual Studio 2015\Projects\AssignmntOrm\src\AssignmntOrm\ProductModel.cs
-C:\Users\suparna\Documents\Visual Studio 2015\Projects\AssignmntOrm\src\AssignmntOrm\Program.cs
-C:\Users\suparna\Documents\Visual Studio 2015\Projects\AssignmntOrm\src\AssignmntOrm\UpdateModel.cs
-C:\Users\suparna\Documents\Visual Studio 2015\Projects\AssignmntOrm\src\AssignmntOrm\Migrations\20170221084110_database added.cs
-C:\Users\suparna\Documents\Visual Studio 2015\Projects\AssignmntOrm\src\AssignmntOrm\Migrations\20170221084110_database added.Designer.cs
-C:\Users\suparna\Documents\Visual Studio 2015\Projects\AssignmntOrm\src\AssignmntOrm\Migrations\20170221085944_datebase added.cs
-C:\Users\suparna\Documents\Visual Studio 2015\Projects\AssignmntOrm\src\AssignmntOrm\Migrations\20170221085944_datebase added.Designer.cs
-C:\Users\suparna\Documents\Visual Studio 2015\Projects\AssignmntOrm\src\AssignmntOrm\Migrations\20170221092353_new db.cs
-C:\Users\suparna\Documents\Visual Studio 2015\Projects\AssignmntOrm\src\AssignmntOrm\Migrations\20170221092353_new db.Designer.cs
-C:\Users\suparna\Documents\Visual Studio 2015\Projects\AssignmntOrm\src\AssignmntOrm\Migrations\20170221095757_fresh db.cs
-C:\Users\suparna\Documents\Visual Studio 2015\Projects\AssignmntOrm\src\AssignmntOrm\Migrations\20170221095757_fresh db.Designer.cs
-C:\Users\suparna\Documents\Visual Studio 2015\Projects\AssignmntOrm\src\AssignmntOrm\Migrations\20170221100013_newfresh db.cs
-C:\Users\suparna\Documents\Visual Studio 2015\Projects\AssignmntOrm\src\AssignmntOrm\Migrations\20170221100013_newfresh db.Designer.cs
-C:\Users\suparna\Documents\Visual Studio 2015\Projects\AssignmntOrm\src\AssignmntOrm\Migrations\DatabaseModelSnapshot.cs
-C:\Users\suparna\Documents\Visual Studio 2015\Projects\AssignmntOrm\src\AssignmntOrm\Properties\AssemblyInfo.cs
+C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\Database.cs
+C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\ProductModel.cs
+C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\Program.cs
+C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\UpdateModel.cs
+C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\Migrations\20170221084110_database added.cs
+C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\Migrations\20170221084110_database added.Designer.cs
+C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\Migrations\20170221085944_datebase added.cs
+C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\Migrations\20170221085944_datebase added.Designer.cs
+C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\Migrations\20170221092353_new db.cs
+C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\Migrations\20170221092353_new db.Designer.cs
+C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\Migrations\20170221095757_fresh db.cs
+C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\Migrations\20170221095757_fresh db.Designer.cs
+C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\Migrations\20170221100013_newfresh db.cs
+C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\Migrations\20170221100013_newfresh db.Designer.cs
+C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\Migrations\20170222031914_Refreshed database.cs
+C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\Migrations\20170222031914_Refreshed database.Designer.cs
+C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\Migrations\DatabaseModelSnapshot.cs
+C:\Users\suparna\Desktop\Suparna\Assign-ORM\AssignmntOrm\src\AssignmntOrm\Properties\AssemblyInfo.cs

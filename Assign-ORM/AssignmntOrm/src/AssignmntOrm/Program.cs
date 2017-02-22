@@ -13,12 +13,12 @@ namespace AssignmntOrm
             using (var db = new Database())
             {
                 db.Database.Migrate();
-                Console.WriteLine("Enter data for adding product");
-                Console.WriteLine("Enter Product description:- ");
+                Console.WriteLine("Enter data for adding product............");
+                Console.WriteLine("Product description:- ");
                 var desc = Console.ReadLine();
-                Console.WriteLine("Enter Product Homepage url:- ");
+                Console.WriteLine("Product Homepage url:- ");
                 var url = Console.ReadLine();
-                Console.WriteLine("Enter Product name:- ");
+                Console.WriteLine("Product name:- ");
                 var n = Console.ReadLine();
 
                 db.ProductModels.Add(new ProductModels
@@ -29,13 +29,13 @@ namespace AssignmntOrm
                 );
               var count = db.SaveChanges();
                Console.WriteLine("Records added to prouducttable", count);
-               add update model
-                Console.WriteLine("Enter Update table details");
-                Console.WriteLine("Enter Update description:- ");
+              // add update model
+                Console.WriteLine("Update table details..............");
+                Console.WriteLine("Update description:- ");
                 var updesc = Console.ReadLine();
-                Console.WriteLine("Enter update name:- ");
+                Console.WriteLine("update name:- ");
                 var upname = Console.ReadLine();
-                Console.WriteLine("Enter Productid:- ");
+                Console.WriteLine("Productid:- ");
                 var pid = int.Parse(Console.ReadLine());
 
                 db.UpdateModels.Add(new UpdateModels
@@ -49,14 +49,14 @@ namespace AssignmntOrm
                 Console.WriteLine();
 
              
-                Console.WriteLine("update product data");
-                Console.WriteLine("Enter Productid:- ");
+                Console.WriteLine("Update product data............");
+                Console.WriteLine("Productid:- ");
                 var proid = int.Parse(Console.ReadLine());
-                Console.WriteLine("EnterDescription:- ");
+                Console.WriteLine("Description:- ");
                 var updescc = Console.ReadLine();
-                Console.WriteLine("Enter Homepageurl:- ");
+                Console.WriteLine("Homepageurl:- ");
                 var upurl =Console.ReadLine();
-                Console.WriteLine("Enter Name:- ");
+                Console.WriteLine("Name:- ");
                 var upnamee = Console.ReadLine();
 
                 db.ProductModels.Update(new ProductModels
@@ -71,7 +71,7 @@ namespace AssignmntOrm
                Console.WriteLine("Records updated to database", count3);
             
 
-                Console.WriteLine("delete product ");
+                Console.WriteLine("Delete product........ ");
                 Console.WriteLine("Enter Productid:- ");
                 var prodid = int.Parse(Console.ReadLine());
  
